@@ -1,0 +1,159 @@
+(footprint "Crystal_SMD_Seiko_SSPT7F-4Pin_6.7x1.5mm_HandSoldering"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Seiko Epson MC-146, Crystal, 6.7x1.5mm package, SMD, hand-soldering, generated with kicad-footprint-generator make_crystal.py, https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "dcab7c42-858c-41c6-a1b9-06616d365d2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_Seiko_SSPT7F-4Pin_6.7x1.5mm_HandSoldering"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "0751ee60-917f-4316-bce9-74fc02b5a0a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a11c7c92-e5f6-4883-99f0-e2b9b8fe2853")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71d477ae-8a5d-459c-944d-a043526ee932")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -0.75)
+		(end 2.3 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "acbb6f02-ffa2-4a2a-9aef-3bfc9ea09db2")
+	)
+	(fp_line
+		(start -2.3 0.75)
+		(end 2.3 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a1fe163-822c-4aa5-b137-d8f93f2e5108")
+	)
+	(fp_circle
+		(center -4 1.25)
+		(end -3.8 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b98f60f1-e673-4ca3-b9ac-f4c05b53942b")
+	)
+	(fp_rect
+		(start -4.9 -1.25)
+		(end 4.9 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "520d1f85-35be-4223-94c4-303cde9119ac")
+	)
+	(fp_poly
+		(pts
+			(xy 3.35 -0.75) (xy 3.35 0.75) (xy -2.975 0.75) (xy -3.35 0.375) (xy -3.35 -0.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c2451859-5069-4838-9ab1-a43d5c66b41b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0755abf2-5999-48bf-8669-81c17529f373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.6 0.45)
+		(size 2.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "83d6e423-cc03-496a-af4f-2ae828c0d0e2")
+	)
+	(pad "2" smd roundrect
+		(at 3.6 0.45)
+		(size 2.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0bcfdef7-aa8e-41d4-906f-60a81c56a48f")
+	)
+	(pad "3" smd roundrect
+		(at 3.6 -0.45)
+		(size 2.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "294d42df-c036-463a-b3e9-fd9db2ff8419")
+	)
+	(pad "4" smd roundrect
+		(at -3.6 -0.45)
+		(size 2.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "abff7bbb-4750-43d2-9d62-7da9b4aaee82")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/USB_HGA22_Library.pretty/Crystal_SMD_Seiko_SSPT7F-4Pin_6.7x1.5mm-Body.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

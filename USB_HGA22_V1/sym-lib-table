@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Connector_USB_PCB_Edge")(type "KiCad")(uri "${KIPRJMOD}/PCB-Edge-USB-connector.pretty/Connector_USB_PCB_Edge.kicad_sym")(options "")(descr ""))
+)

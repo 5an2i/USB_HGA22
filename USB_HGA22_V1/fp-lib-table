@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PCB-Edge-USB-connector")(type "KiCad")(uri "${KIPRJMOD}/PCB-Edge-USB-connector.pretty")(options "")(descr ""))
+  (lib (name "USB_HGA22_Library")(type "KiCad")(uri "${KIPRJMOD}/USB_HGA22_Library.pretty")(options "")(descr ""))
+)
