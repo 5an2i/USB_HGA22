@@ -34,6 +34,11 @@ Az USB_HGA22_V1 egy hardveres és szoftveres projekt, amelyet a lakihegyi **HGA2
 - Az STM32C071 belső 48 MHz-es oszcillátorának (CRS) használata, így nincs szükség külső kvarckristályra az USB kommunikációhoz.
 - Alacsony fogyasztású kialakítás, amely ideális folyamatos háttérüzemre.
 
+##Schematic
+
+### Revision 1.0
+[![Revision 1.0](images/USB_HGA22_V1_Rev1.0_SCH.png)](images/USB_HGA22_V1_Rev1.0_SCH.png)
+
 ## Visuals
 
 ### Top View
